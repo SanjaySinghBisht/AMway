@@ -1,5 +1,0 @@
-/* IE9 CSS Hack start */
-@media all and (min-width:0\0) and (min-resolution:.001dpcm){
-  .modal.promotion-popup .modal-dialog .modal-body{background: url('../images/promotion-modal-bg.jpg') repeat-x;background-position: bottom;}  
-  .ragistraion-option{ min-height: 200px}  
-}/* IE9 CSS Hack end */
