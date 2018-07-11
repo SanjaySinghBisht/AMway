@@ -1,0 +1,341 @@
+@import "variable.less";
+
+.bc-right-section{float: left;width: 100%;background-color: @primaryColor4;padding: 10px;
+	& a:focus{outline: none;text-decoration: none;color: @defaultLinkColor;}
+}
+.bc-inner-heading{float: left;width: 100%;padding: 5px 10px 10px;border-bottom: 1px solid @tableBorderColor;margin-bottom: 20px;
+	& h3{color: @titleColor;font-family: @baseFontGothicBookCnd;margin: 0;}
+	& .bc-inner-action-btns{text-align: right;
+		& a{color: @defaultLinkColor; font-size: @baseFontSize;margin-left: 20px;font-family: @defaultLinkFontFamily;
+			&:hover{text-decoration:none;}
+		}
+		& a:first-child{margin-left: 0;}
+	}
+}
+.bc-search-section{float: left;width: 100%;padding: 0 10px;margin: 15px 0 10px;
+	& .form-group{overflow: hidden;}	
+}
+.bc-right-container{float: left;width: 100%;
+	& h4{color: @titleColor;margin-top: 0;}
+	& .pagination-section{border-top-width: 1px;}
+}
+
+.confirm-email-dtl .control-label{padding-top: 0;}
+.bc-src-result-container{padding: 15px;border-top: 1px solid @tableBorderColor;margin-top: 10px;}
+.bc-form-submit-btns-wrap{float: left;width: 100%;padding: 15px 0 0;border-top: 1px solid @tableBorderColor;margin-top: 20px;text-align: right;
+	& .btn{min-width: 140px;margin-left: 10px;}
+	& .btn:first-child{margin-left: 0;}
+}
+.appoint-note{float: left;width: 100%;padding: 15px 10px 0;border-top: 1px solid @tableBorderColor;margin-top: 15px;
+	& ol{padding: 0 0 0 15px;margin-bottom: 20px;
+		& li{list-style: decimal;}
+	}
+}
+.bec-activities-tabs{float: left;width: 100%;
+	& .tab-content{float: left;width: 100%;background-color: @primaryColor4;padding: 0 0 12px 0;
+		& .tab-pane{float: left;width: 100%;}
+	}
+	
+}
+.recognition-table{
+	& .table > tbody > tr > td{padding: 15px 10px;border: none;
+		&:last-child{width: 100px;}
+		&:nth-of-type(3){width: 300px;display: inline-block;}
+	}
+}
+
+.add-moreline-section{float: left;width: 100%; border-top: 1px solid @tableBorderColor;border-bottom: 1px solid @tableBorderColor;padding: 20px 10px;margin-bottom: 20px;
+	& .glyphicon{font-size: @baseFontSize - 1;}
+}
+.terms-conditions-section{float: left;width: 100%;padding: 0 5px;
+	& ol{padding: 0 0 0 20px;
+		& li{list-style: decimal;}
+	}
+}
+.agree-with-btns{float: left;width: 100%;}
+.pw-src-section{float: left;width: 100%;padding: 15px 5px;background-color: @otpBackground;margin-bottom: 20px;
+	& p{margin-bottom: 0;font-size: @baseFontSize - 1;}
+}
+.un-registered-pd-list{margin-bottom: 20px;}
+.bc-filter-date-section{float: left;width: 100%; border-top: 1px solid @tableBorderColor;padding: 15px 5px;margin-top: 15px;}
+.reg-represent-box{text-align: center;padding: 10px;background-color: @accountLeftMenuBg;margin-bottom: 10px;
+	& p{font-weight: normal;margin: 0;font-size: @baseFontSize + 3;}
+}
+.registered-pd-list{
+	& .table{
+		& a{margin-left: 10px;}
+		& a:first-child{margin-left: 0;}
+		& th:last-child{width: 120px;}
+	}
+}
+
+.large-modal-wrapper{
+	& .modal-dialog{width: 65%;border-radius: 0;
+		& .modal-content{border-radius: 0;
+			& .modal-title{
+				& h1{color: @titleColor;}
+			}
+		}
+		& .modal-header{border: none;padding-bottom: 0;}
+		& .modal-body{padding-top: 0;
+			& .form-group{overflow: hidden;}
+		}
+	}
+	& .form-group.required .control-label:after {
+	  content:"\002a";
+	  color:red;
+	}
+}
+
+.register-form-submit-btns{padding-top: 15px;border-top: 1px solid @tableBorderColor;margin-bottom: 15px;
+	& .btn{margin-left: 5px;}
+	& .btn:first-child{margin-left: 0;}
+}
+.customer-helpdesk-section{padding: 15px; background-color: @otpBackground;text-align: center;
+	& a{margin: 0 30px;
+		& span{color: @baseTextColor;}
+	}
+}
+
+.start-BE-section{margin: 15px 0;
+	& .start-BE-container {padding: 10px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;min-height: 460px;}
+	& img{width: 100%;}
+	& .start-BE-title{font-size: @baseFontSize + 5;font-family: @baseFontGothicMedium;margin: 12px 0 5px;color: @titleColor;}
+	& p{margin: 0;color: @secondaryColor2;}
+}
+#bootstrapModalFullCalendar{border: 1px solid @tableBorderColor;border-top: 5px solid @primaryColor1;box-shadow: 0 0 4px @secondaryColor1;padding: 20px;
+	& .fc-state-default{background-color: transparent;border: none;box-shadow: none;background-image: none;}
+	& th{padding: 15px;}
+}
+.business-support-section{overflow: hidden;
+	& img{width: 100%;}
+	& h5{color: @titleColor;font-family: @baseFontGothicMedium;}
+	& h6{color: @secondaryColor2;font-family: @baseFontFranklinBold;text-transform: uppercase;}
+}
+.bs-support-container{background-color: @primaryColor4;padding: 20px 15px;overflow: hidden;box-shadow: 0 0 4px @secondaryColor1;}
+.bs-left-inner-box{padding-right: 30px;
+	& img{margin-bottom: 10px;}
+}
+.bs-right-inner-box{padding-right: 20px;}
+.bs-right-repeat-box{border-bottom: 1px solid @tableBorderColor;padding-bottom: 15px;margin-bottom: 15px;
+	& p{margin: 0;}
+}
+.bs-right-repeat-box:last-child{border-bottom: none;padding: 0;margin: 0;}
+
+.bc-dashboard-container{
+	& h5{text-transform: uppercase;margin-top: 0;color: @baseTextColor;}
+	& h6{text-transform: uppercase;margin-bottom: 0;font-family: @baseFontGothicDemi;color: @secondaryColor2;margin-top: 5px;}
+	& a{display: block;
+		&:hover{text-decoration:none;}
+		&:focus{text-decoration: none;outline: none;}
+	}
+}
+.business-tracker-section{padding: 15px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;border-top: 5px solid @primaryColor1;margin-bottom: 15px;
+	& h2{color: @bcDashboardColor1; font-family: @baseFontGothicDemi;margin: 5px 0;}
+}
+.personal-vol, .next-performance{background-color: @accountLeftMenuBg;padding: 6px 10px;text-align: center;	
+	& .pv-text{text-transform: uppercase; font-family: @baseFontGothicMedium;margin: 0;}
+	& p{margin: 0;}
+}
+.personal-vol{margin-bottom: 2px;}
+.bc-pie-chart-box{text-align: center;}
+.bc-birthday-section{padding: 15px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;margin-bottom: 15px; font-family: @baseFontGothicMedium;
+	& span{margin-right: 10px;}
+	& .icon-gift2{font-size: @baseFontSize + 9;}
+}
+.business-report-section{padding: 15px 15px 20px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;border-top: 5px solid @bcDashboardColor2;margin-bottom: 15px;
+	& .glyphicon{font-size: 46px;color: @bcDashboardColor2;margin-bottom: 5px;}
+	& .br-top-box a{color: @secondaryColor2;font-family: @baseFontGothicDemi;}
+}
+.br-top-box{float: left;width: 100%;background-color: @primaryColor4;padding: 10px;border: 10px solid @accountLeftMenuBg;display: table;}
+.dd-activity-report{padding: 0;}
+.dd-active-list{border: 3px solid @accountLeftMenuBg;height: 90px;width:150px;padding: 10px;display: table-cell;vertical-align: bottom;line-height: normal;}
+.bc-pie-chart-box .svg-container{width: 85%;
+	& .circliful{margin-top: -40px;}
+}
+.group-vol-container{float: left;width: 100%;padding: 0 10px;
+	& h4{font-size: @baseFontSize + 3;font-family: @baseFontGothicMedium;color: @baseTextColor;text-transform: uppercase;margin: 0 0 15px 0;}
+	& .col-md-6{padding-right: 1px;padding-left: 1px;}
+}
+.group-vol-inner{background-color: @accountLeftMenuBg;padding: 6px;text-align: center;margin-bottom: 2px;
+	& h2{
+		& span{color: @baseTextColor;font-size: @baseFontSize;font-family: @baseFontGothicMedium;}
+	}
+}
+.br-bottom-container{float: left;width: 100%;margin-top: 10px;}
+.br-bottom-inner{background-color: @primaryColor4;padding: 8px;border: 10px solid @accountLeftMenuBg;}
+.others-report-section{padding: 20px 15px 10px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;border-top: 5px solid @bcDashboardColor3;}
+.others-report-inner{background-color: @primaryColor4;padding: 10px 6px;border: 10px solid @accountLeftMenuBg;min-height: 113px;margin-bottom: 10px;
+	& span{display: block;font-size: @baseFontSize + 20; color: @bcDashboardColor3;}
+}
+.my-performance-section{padding: 15px 15px 10px;background-color: @primaryColor4;box-shadow: 0 0 4px @secondaryColor1;border-top: 5px solid @bcDashboardColor4;}
+.my-performance-inner{background-color: @primaryColor4;padding: 15px 6px;border: 10px solid @accountLeftMenuBg;min-height: 100px;margin-bottom: 10px;
+	& span{display: block;font-size: @baseFontSize + 33; color: @bcDashboardColor4;}
+	& a{overflow: hidden;}
+	& h6{margin-top: 20px;}
+}
+.pin-invt-modal-container{
+	& h6{text-transform: uppercase;color: @titleColor;text-decoration: underline;margin: 15px 0;}
+	& .glyphicon-ok-sign{font-size: 48px;margin-top: 14px;}
+	& .alert{margin-bottom: 0;
+		& p{font-size: @baseFontSize + 5;}
+		& p+p{font-size: @baseFontSize;}
+	}
+}
+.pin-invst-success{display: none;}
+.pin-invest-paragraph{margin-bottom: 15px;}
+.bc-items-top-slider .icomoon{font-size: @baseFontSize + 6;}
+.total-ABO-report{background-color: @otpBackground;padding: 15px;margin-top: 15px;
+	& span{font-size: @baseFontSize + 13; color: @errorColor;}
+}
+
+.dd-activity-report-tabs-cont{
+	& .panel-default{margin-top: 10px;
+		& h4{margin-bottom: 20px;}
+	}
+	& .form-group{overflow: hidden;}
+	& label{padding-top: 0;}
+}
+.notes-text{font-size: @baseFontSize + 3; margin: 0 0 15px 0;}
+.progress-report-container{padding: 0 10px 10px;}
+.progress-report-chart-cont{background-color: @secondaryColor1;height: 400px;}
+.sign-up-month-dropdown{border-top: 1px solid @tableBorderColor;margin-top: 20px;padding: 15px 0;}
+.abo-count-highlight{background-color: @tableRowOddColor;padding: 20px;text-align: center;width:100%;min-height: 150px;margin-bottom: 20px;display: table;
+	& .abo-count-content{display: table-cell;vertical-align: middle;}
+	& h4{font-size: @baseFontSize + 10;color: @successColor;}
+}
+.new-abo-report-tabs-cont{
+	& .navbar-form{margin: 0;padding: 0;}
+}
+.abo-coupon-src-section{margin-bottom: 20px;}
+.your-target-points-box{background-color: @tableRowOddColor;padding: 20px;text-align: center;
+	& h2{margin-top: 0;color: @titleColor;font-family: @baseFontGothicDemi;}
+	& p{margin: 0;}
+}
+.note-text-with-bg{background-color: @otpBackground;padding: 15px;margin-top: 20px;}
+.navbar-form .input-group{width: 100%;}
+
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);padding:10px;border-color: @inputBorderColor; color: @primaryDefaultBtn;
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:@inputBorderColor; border-right-color: transparent;
+}
+
+@media (min-width: 320px) and (max-width:767px)  {
+	.bc-right-section{
+		& .control-label{margin-top: 0;}
+	}
+	.bc-right-container{
+		& .panel-default{margin-top: 10px;
+			& > .panel-heading + .panel-collapse > .panel-body{border: none;padding: 10px;						
+			}
+		}
+		& .btn{width: 100%;}
+		& h4{font-size: @baseFontSize;}
+	}
+	.vertical-left-menus{background-color: @primaryColor4;margin-bottom: 10px;padding: 15px 10px;box-shadow: 0 0 5px @secondaryColor2;}
+	.bc-inner-heading{padding-top: 0;
+		& h3{font-size: @baseFontSize + 5;}
+		& .bc-inner-action-btns{
+			& a{margin: 0;font-size: @baseFontSize + 5;}
+		}
+	}
+	.bc-search-section{border-bottom: none;padding-bottom: 0;padding-top: 0;
+		& .btn{width: 100%;}
+	}
+	.bc-form-submit-btns-wrap{
+		& .btn{min-width: 100%;margin-left: 0;}
+	}
+	.bec-activities-tabs{float: left;width: 100%;}
+	.pw-src-section{
+		& .btn{width: 100%;}
+	}
+	.recognition-table{
+		& .table > tbody > tr > td{
+			& select{width: 180px;}
+			& input[type="text"]{width: 200px}
+		}
+	}
+	.agree-with-btns{
+		& .pull-right{width: 100%;}
+	}
+	.add-moreline-section{
+		& .btn{width: 100%;}
+	}
+	.large-modal-wrapper{
+		& .modal-dialog{width: 95%;}
+	}
+	.register-form-submit-btns{
+		& .btn{width: 100%;margin-left: 0;}
+	}
+	.customer-helpdesk-section{
+		& a{display: block;}
+	}
+	.start-BE-section{
+		& .start-BE-container{min-height: 100%;margin-bottom: 10px;}
+	}
+	.bs-support-container{padding: 15px 10px 10px;}
+	.bs-left-inner-box{padding: 0 0 15px 0; margin-bottom: 15px;border-bottom: 1px solid @tableBorderColor;}
+	.bc-pie-chart-box .svg-container .circliful{margin-top: 0;}
+	.business-tracker-section{padding: 10px 8px;
+		& .circliful{width: 150px;margin-left: -22px}
+	}
+	.bc-pie-chart-box .svg-container{width: 100%;}
+	.business-tracker-section h2{font-size: @baseFontSize + 5;}
+	.personal-vol .pv-text, .next-performance .pv-text, .personal-vol p, .next-performance p{font-size: @baseFontSize - 1;}
+	.group-vol-inner h2 span{display: block;}
+	.business-report-section{padding: 10px 8px;
+		& .glyphicon{float: left;margin-right: 8px;}
+	}
+	.my-performance-inner{padding: 6px 0;min-height: 132px;}
+	.group-vol-container{
+		& h4{padding-left: 0;margin-top: 15px;}
+	}
+	.dd-activity-report{overflow: hidden;}
+	.dd-active-list{width: 100%;height: auto;display: block;margin-bottom: 5px;}
+	.br-bottom-inner{margin-bottom: 10px;overflow: hidden;}
+	.group-vol-inner{margin-bottom: 2px;}
+	.others-report-section{padding: 10px 8px;margin-bottom: 15px;}
+	.others-report-inner{min-height: 130px;}
+	.bc-dashboard-container h5{font-size: 16px;}
+	.my-performance-section{padding: 10px 8px;}
+	.large-modal-wrapper .modal-dialog .modal-body{padding: 0 10px;}
+	.large-modal-wrapper .modal-dialog .modal-title{font-size: @baseFontSize + 9;}
+	.pin-invt-modal-container{
+		& .glyphicon-ok-sign{margin-top: 0;margin-bottom: 15px;}
+		& .alert{
+			& p{font-size: @baseFontSize + 3;}
+		}
+	}
+	.abo-count-highlight{padding:15px;}
+	.new-abo-report-tabs-cont .navbar-form{padding: 0;}
+	.abo-count-highlight h4{font-size: @baseFontSize + 10;}
+}
+
+@media (min-width: 768px) and (max-width:991px){
+	.bc-right-section{
+		& .control-label{margin-top: 0;}
+	}
+	.vertical-left-menus{background-color: @primaryColor4;margin-bottom: 10px;padding: 15px 10px;box-shadow: 0 0 5px @secondaryColor2;}
+	.bc-inner-heading{padding-top: 0;
+		& h3{font-size: @baseFontSize + 5;}
+		& .bc-inner-action-btns{margin-top: 0;
+			& a{margin: 0;}
+		}
+	}
+	.bc-search-section{border-bottom: none;padding-bottom: 0;padding-top: 0;}
+	.start-BE-section{
+		& ul{
+			& li{margin-bottom: 15px;}
+		}
+	}
+	.bs-left-inner-box{padding: 0 0 15px 0; margin-bottom: 15px;border-bottom: 1px solid @tableBorderColor;}
+	.add-moreline-section .control-label{padding-top: 12px;}
+	.others-report-section{margin-bottom: 15px;}
+}

@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"u",
+				"url()"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mid",
+				"middleSection"
+			],
+			[
+				"Im",
+				"important"
+			],
+			[
+				"s",
+				"src	Attr"
+			],
+			[
+				"st",
+				"strike"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"ac",
+				"activeTab"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"red",
+				"redCashPoints"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"page",
+				"page-break-inside"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"wo",
+				"word-wrap"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"modal",
+				"modal-open"
+			],
+			[
+				"mo",
+				"modal-open"
+			],
+			[
+				"moda",
+				"modal_length"
+			],
+			[
+				"mod",
+				"modal-backdrop"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"data",
+				"data-target"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ne",
+				"numbers"
+			],
+			[
+				"modu",
+				"moduleName"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"em",
+				"employeerecord"
+			],
+			[
+				"ce",
+				"cellspacing	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 151.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Workstation/Lapi data/HTML demos/Paid Themes/Metronic Theme2/admin_3/charts_flowchart.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/dashboard-normalABO.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/red-cash.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/red-cash-zero.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/css/custom.css",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/red-cash-details.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/css/style.css",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/css/style.css",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/js/common.js",
+		"/E/Workstation/Lapi data/HTML demos/TSC/PMS/PMS.sln",
+		"/E/Workstation/Lapi data/HTML demos/QIGRIDv1.4/index3.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Desktop/listing.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/js/common.js",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/red-cash.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/red-cash-login.html",
+		"/C/Users/sanjaybisht/Desktop/Red doorz/reddoorz design/reddoorz design/Mobile/red-cash-landing-page.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/about-amway-malaysia.html",
+		"/E/Workstation/Lapi data/HTML demos/Demotablesorter/files/jquery.js",
+		"/E/Workstation/Lapi data/HTML demos/Demotablesorter/tablesorter.htm",
+		"/E/Workstation/Lapi data/HTML demos/JSON Demo/Gmail Checkbox functionality.html",
+		"/E/Workstation/Lapi data/HTML demos/JSON Demo/data.js",
+		"/E/Workstation/Lapi data/HTML demos/JSON Demo/common.js",
+		"/C/Users/sanjaybisht/Downloads/document.json",
+		"/E/Workstation/Lapi data/HTML demos/JSON Demo/common.min.js",
+		"/E/Workstation/Lapi data/HTML demos/EmployeeSearch Portal/Home.html",
+		"/E/Workstation/Lapi data/HTML demos/Demotablesorter/files/jquery-3.js",
+		"/E/Workstation/Lapi data/HTML demos/Demo for Phoenix/Demo for Phoenix/demo.js",
+		"/E/Workstation/Lapi data/HTML demos/calculator/js/common.js",
+		"/E/Workstation/Lapi data/HTML demos/calculator/js/common.min.js",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/global-style.less",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/common-style.less",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/platinum-activity-report.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/payment-status.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/payment-status-fail.html",
+		"/E/Workstation/Lapi data/Office/SPAN/Vijay Kumar/Dashboard Theme3/files/js/common.min.js",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/payment-status-declined.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/css/print.css",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/variable.less",
+		"/C/Users/sanjaybisht/Desktop/print.html",
+		"/C/Users/sanjaybisht/Downloads/analyticsmediator.js",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/typeA_7.html",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/Styles/overview-styles.css",
+		"/E/Workstation/Lapi data/Office/Gemini/Sanjay/Gemini Solutions/ETP/ETP/ETP.htm",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/typeA.html",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/typeC.html",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/more-information.html",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/typeB.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/product_warranty_registration.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/js/custom-functions.js",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/product-warranty.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-online-event-registration.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/business-center.less",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/AD100106.html",
+		"/E/Workstation/Projects/Amway/Amway-pdp-tabs (1)/Amway/AD861700.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/css/main-style.css",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/main-style.less",
+		"/C/Users/sanjaybisht/Desktop/Amway-pdp-tabs (1)/Amway/more-information.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/pv-bv-enquiry.html",
+		"/C/Users/sanjaybisht/Desktop/Amway-pdp-tabs (1)/Amway/Styles/overview-styles.css",
+		"/E/Workstation/Lapi data/HTML demos/Modal_Inside_modal.html",
+		"/C/Users/sanjaybisht/Desktop/Modal_Inside_modal.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/js/Modal_Inside_modal.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-bec-activities-confirmation-BEC.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/congratulation-emial.html",
+		"/C/Users/sanjaybisht/Desktop/JSON.html",
+		"/C/Users/sanjaybisht/Desktop/crud.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/js/easyzoom.js",
+		"/C/Users/sanjaybisht/Desktop/functions.js",
+		"/C/Users/sanjaybisht/Downloads/API call using Javascript .html",
+		"/C/Users/sanjaybisht/Desktop/myTutorials.txt",
+		"/E/Workstation/Lapi data/HTML demos/Gmail Checkbox functionality.html",
+		"/E/Workstation/Lapi data/HTML demos/TSC/project/QuantDemo/QI-RetinaDesign/QuantDemo9/Quant.htm",
+		"/E/Workstation/Lapi data/HTML demos/Icons using Font awesome/font-awesome-4.0.0/scss/font-awesome.scss",
+		"/E/Workstation/Lapi data/HTML demos/Icons using Font awesome/font-awesome-4.0.0/less/font-awesome.less",
+		"/C/Users/sanjaybisht/Desktop/Dashboard Theme3/Dashboard.html",
+		"/E/Workstation/Lapi data/Office/SPAN/Vijay Kumar/Dashboard Theme3/files/js/common.js",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/js/header.js",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/knw-event-bec-activities-confirmation.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/js/bootstrap.counter.js",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/add-downlines-to-ITCCAS.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/e-commerce.less",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/knowledge-center.less",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/knw-online-event-registration.html",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/knw-online-event-registration-BEC.html",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/knw-event-bec-activities-confirmation-BEC.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-inquiry-details-BEC.html",
+		"/C/Users/sanjaybisht/Desktop/SASS/demo.htm",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-inquiry-details.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-online-event-registration-BEC.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-bec-activities-confirmation.html",
+		"/C/Users/sanjaybisht/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/sanjaybisht/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/sanjaybisht/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/index-afterlogin.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/less/account.less",
+		"/E/Workstation/Lapi data/HTML demos/Increment on page visits.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/order-details.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/shopping-cart.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/product-detail-1.html",
+		"/C/Users/sanjaybisht/Desktop/SASS/files/scss/docs.scss",
+		"/C/Users/sanjaybisht/Desktop/SASS/files/scss/color.scss",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-registration-listing.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/knw-event-registration-listing-BEC.html",
+		"/C/Users/sanjaybisht/Desktop/SASS/files/scss/docs.css",
+		"/C/Users/sanjaybisht/Desktop/SASS/files/scss/mixin.scss",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/less/docs.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/less/main3.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/less/main1.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/less/main2.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/css/docs.css",
+		"/C/Users/sanjaybisht/Desktop/SASS/files/scss/main3.scss",
+		"/E/Workstation/Lapi data/HTML demos/Respponsive Gridview design/files/docs.css",
+		"/E/Workstation/Projects/AmwaySVN/html-for-dev/v3/order-details.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/order-history.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/open-orders.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/all-orders.html",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/EPP-orders.html",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/demo.htm",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/common.js",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/css/main2.css",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/css/main3.css",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/css/main1.css",
+		"/E/Workstation/Projects/AmwaySVN/html/v3/404.html",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/docs.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/main1.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/main2.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/main3.less",
+		"/C/Users/sanjaybisht/Desktop/Add divs dynamically/files/main.less"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"diagram_1",
+			"catch something",
+			"red-cash-grids",
+			"table",
+			"red-cash-grid",
+			"582",
+			"542",
+			"Red Ca",
+			"script",
+			"padding:0",
+			"style",
+			"Hi, Rajesh Tanwar",
+			"bdr-right",
+			"empty-row",
+			"text-g",
+			"text-",
+			"success",
+			"Knowledge",
+			"tab-pane",
+			"3Total No. of ABOs",
+			"@media print {\n\n  header,footer,.category-section,.breadcrumb,.vertical-left-menus,.bc-inner-action-btns a {\n            display : none !important;\n}\n \n.bc-right-section * {\n            visibility: visible;\n            overflow: visible;\n            display: block !important;\n}\n \n \nli:not(.active){\n            display:none !important;\n}\n \nli.active a{\n            border : none !important;\n}\n \n.glyphicon {\n            display:none !important;\n}\n \ndiv.col-sm-6{\n            width : 50% !important;\n            position: relative;\n    min-height: 1px;\n    padding-left: 5px;\n    padding-right: 5px;\n            float:left;\n} \n\n}",
+			" background-color-1",
+			"input-group-addon",
+			"media",
+			"mBottom10",
+			"mTop",
+			"dotted-border",
+			"d3d3",
+			"d3d3d5",
+			"efeff1",
+			"Register",
+			"warranty-re",
+			"reset",
+			"Register",
+			"register-modal",
+			"Register",
+			"media",
+			"paddingLeft20",
+			"In-between 21% Volume",
+			"reset-modal",
+			"Register",
+			"Reset",
+			"Register",
+			"modal",
+			".estimated-block",
+			".estimated-block .estimated-inner-cont",
+			"2068.80 Awards",
+			"footer",
+			"delete-modal",
+			"Action",
+			"ACtion",
+			"delete",
+			"#delete-modal",
+			"teardown",
+			"Contact Detail",
+			"list",
+			"Can",
+			"media",
+			".pay-now-btn  span",
+			".order-summary-section",
+			".",
+			".order-summary-section",
+			".order-summary-section .btn .icon-credit-card",
+			"TESTING",
+			"Event",
+			"tarm-box",
+			"paddingT0",
+			"tarm-box",
+			"Payment",
+			"ONLINE",
+			"importantAnouncement",
+			"tarm-box",
+			"Important",
+			"cancel",
+			"Cancel",
+			"Shipment-se",
+			"Payment De",
+			"media",
+			"radio-inline",
+			"text",
+			"blue",
+			"primaryColor1",
+			"#008fc5",
+			"ONLINE",
+			"Can",
+			"nopadding",
+			"add-to-cart",
+			"Details",
+			"Event Deta",
+			"media",
+			"cance",
+			"can",
+			"media",
+			"Cancel",
+			"Can",
+			"Status",
+			"sand",
+			"In Stock",
+			"Open",
+			"Open Orders",
+			",\n",
+			"edit-coupon-popup",
+			"add-to-cart",
+			"alternativesColor3",
+			"cance",
+			"Cancel",
+			"1 Default Accessories which consists of 1 each of the following",
+			"5",
+			"1 Unit of In",
+			"5 Units",
+			"quant",
+			"BEC",
+			"Normal",
+			"cance",
+			"MYR",
+			"Retur",
+			"Cancel",
+			"Retur",
+			"Payment",
+			" MYR 20.00",
+			"Online",
+			"Return",
+			"Fee\n",
+			"Fee",
+			"MYR 20.00",
+			"Normal",
+			"Work",
+			"Distr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "404.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

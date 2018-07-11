@@ -1,0 +1,603 @@
+/********Register Page style******/
+.triangular-nav{margin: 0; padding:0; }
+.triangular-nav ul{margin: 0; padding:0; list-style: none;}
+.arrow-box:after, .arrow-box:before {left: 100%;	top: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute; pointer-events: none; z-index: 9; margin-left: -10px;}
+.tri-count{border: 2px solid @primaryColor4; border-radius: 18px; margin-right: 10px; padding: 5px 11px;}
+.arrow-box {position: relative; padding-right: 10px;
+	& a{ 
+		font-size: @baseFontSize + 3; font-family: "FranklinGothic-Medium", "Helvetica Neue", Helvetica,Arial,sans-serif; text-transform: uppercase; color: @primaryColor4; padding: 15px 10px 15px 15px; background: #dbdbdb;  border-top: 5px solid @secondaryColor1; display: block; box-shadow: 1px 2px 0 @secondaryColor1; text-align: left!important;
+		&:hover{text-decoration: none;}
+	} 
+
+	&:before {border-color: rgba(204, 204, 204, 0);	border-left-color: @secondaryColor1;border-width: 16px;	margin-top: -16px;}
+	&:after {border-color: rgba(219, 219, 219, 0);border-left-color: #dbdbdb;border-width: 14px;margin-top: -15px;}
+	
+	&.active a{color: #0198cd; background: @primaryColor4;  border-top: 5px solid #0198cd;}
+	&.active .tri-count{border: 2px solid #0198cd;}
+	&.active:after {border-left-color: @primaryColor4;}
+	&.filled a{color: #9bcbfb; background: @primaryColor4;  border-top: 5px solid #9bcbfb;}
+	&.filled .tri-count{border: 2px solid #9bcbfb;}
+	&.filled:after {border-left-color: @primaryColor4;} 
+	&.disable a{cursor:not-allowed;}
+	&:last-child{padding-right: 0;
+		&:after{border:0;}
+		&:before{border:0;}
+	}
+	&.disable a{ cursor:not-allowed;}
+}
+
+.register-form{ background: @primaryColor4; margin: 20px 0;
+	& label{padding-top: 0;}
+}
+.register-form h2.heading{font-size: 24px;}
+.agree-section{background: @baseBackground; padding: 10px 20px 15px;
+	&.active{ background: #ebf5ff;
+		& .checkagree{ margin-bottom: 10px;}
+		& .form-group{margin:0;}
+	}
+	& p{ margin:10px 0 5px}
+	& .form-group{ padding-left: 20px;}
+} 
+.fixradioW{width: 33%}
+.foot-section{border-top: 1px solid @baseBackground; padding: 0px 0 30px;
+	& .btn-default{ min-width: 120px;}
+	& .link:hover{text-decoration: none;}
+}
+
+.listing-info li{ margin: 5px 0}
+.listing-info label{ width: 49%; display: inline-block; }
+.list-info{  vertical-align: top; padding-left: 0px; display: inline-block;; width: 49%}
+.total-summary{border-top: 1px solid @baseBackground; margin: 20px 0 0; padding: 20px 0;
+	& .list-info{ text-align: right; padding-right: 15px;}
+	& .listing-info li{ padding-left: 10px;}
+}
+.total-btn{background: #012c5f none repeat scroll 0 0; color: @primaryColor4; padding: 12px 15px;}
+.total-summary .total-btn .list-info{padding-right: 0; font-size: @baseFontSize + 4;}
+.total-summary .total-btn label{line-height: 26px;  margin-bottom: 0;color: @primaryColor4;}
+.registration-term{margin: 20px 0 0;
+	& p{margin-bottom: 0}
+}
+.tarm-box{  border:1px solid @secondaryColor1;padding:10px;   overflow: auto; max-height: 160px;
+	& ol{list-style: decimal;padding-left: 15px;
+		& li{list-style: decimal;}
+	}
+}
+
+.help-text.withicon{ margin-left: 20px;}
+.center-info-section{margin: 10px 0px; text-align:center;border-right: 1px solid @secondaryColor1; padding-right: 10px; min-height: 158px; cursor: pointer;
+	&.border-left{border-left: 1px solid @secondaryColor1; padding-left: 10px; }
+	& .iconmoon{font-size: 32px; color: #022d5a; }
+	& > h2 { color: #022d5a; font-size: @baseFontSize + 7; margin-bottom: 5px;margin-top: 10px;}
+}
+#emailOtpForm{display: none;}
+/********Register Page style End******/
+
+/******* My Account page style start *******/
+.payment-dtl-tab-section{float: left;width: 100%;margin-bottom: 30px;
+	& form{float: left;width: 100%;margin: 0;}
+	& .tab-content{float: left;width: 100%;background-color: @primaryColor4;padding: 0 0 12px 0;
+		& .tab-pane{float: left;width: 100%;}
+	}
+	
+}
+
+.profil-form-container{float: left;width: 100%;background-color: @primaryColor4;padding: 20px;}
+.contact-details-form{float: left;width: 100%;}
+.personal-details-form{float: left;width: 100%;}
+
+.bank-account-inner-container{float: left;width: 100%;padding: 20px 0 0;
+	& form a{margin-top: 11px;display: inline-block;}
+	
+}
+.payment-dtl-tabs-container{float: left;width: 100%;padding: 20px 20px 0;min-height: 350px;}
+
+.card-detail-list{padding: 20px; background-color: @accountLeftMenuBg;}
+
+.card-name{margin-bottom: 10px;font-family: @fontFamilyFormLabel;
+	& a{margin-left: 20px;}
+}
+.card-number-or-type{background-color: @primaryColor4;border: @tableBorderColor;padding: 5px;box-shadow: 0 0px 6px #999; float: left; width: 80%;
+	& input{border: none!important;background-color: transparent;box-shadow: none;display: inline-block;width: 55px!important;padding:0!important;}
+}
+.card-type{display: inline-block;margin-right: 10px;}
+.card-number{display: inline-block;}
+.card-delete {text-align: right; line-height: 55px;}
+
+.payment-accordion-section{float: left;width: 100%;
+	& .panel-default{border: none;border-radius: 0;margin: 0;box-shadow: none;
+		& > .panel-heading{background-color: @primaryColor4;border: none;box-shadow: none;padding: 0;}
+		& > .panel-heading + .panel-collapse > .panel-body{border: none;}
+		& .panel-title > a{padding: 10px 15px;display: block;border-top: 5px solid @tableBorderColor; font-size: @baseFontSize + 3;font-family: @fontFamilyFormLabel;color: @secondaryColor3;
+			&[aria-expanded="true"]{border-top-color: @primaryColor1;}
+			&:hover{text-decoration: none;}
+			&:focus{text-decoration: none;}
+		}
+	}
+}
+
+input, select, input.form-control, select.form-control{color: @secondaryColor4;font-family: @fontFamilyFormLabel;font-size: @baseFontSize;}
+.bank-account-inner-container .form-group, .my-account-form-repeat .form-group,
+.account-settings-repeat-form .form-group,.new-address-form .form-group{overflow: hidden;}
+.card-number-or-type input:focus{outline: none;box-shadow: none;}
+.account-settings-inner-content{padding: 0 10px;
+	& .password-field-hint{float: left;margin-left: -95px;width: 41%;}
+}
+.account-settings-repeat-form a{margin-top: 11px;display: inline-block;}
+.ac-set-resignation-section{
+	& .panel-default{border: none;border-radius: 0;margin: 0;box-shadow: none;
+		& > .panel-heading{background-color: @secondaryColor2;border: none;box-shadow: none;padding: 0;border-radius: 0;}
+		& > .panel-heading + .panel-collapse > .panel-body{border: none;padding: 20px;}
+		& .panel-title > a{padding: 10px 15px;display: block;font-size: @baseFontSize + 5;font-family: @fontFamilyH1;color: @primaryColor4;
+			&[aria-expanded="true"]{border-top-color: @primaryColor1;}
+			&:hover{text-decoration: none;}
+			&:focus{text-decoration: none;}
+		}
+	}
+	
+	& .ac-set-resignation-container{padding: 0 5px;display:block;float: left;width: 100%;
+		& .form-submit-button-section{border: none;padding: 0;}
+	}
+}
+
+.policies-details-section{border-top: 1px solid @tableBorderColor;border-bottom: 1px solid @tableBorderColor;margin-top: 20px;padding-bottom: 15px;
+		& ol{list-style: decimal;padding: 0 0 0 20px;
+			& > li{padding-left: 10px;list-style: decimal;}
+		}
+	}
+.center-block-element{width: 50%;margin:0 auto;}
+.otp-wrapper-section{background: @otpBackground; margin: 10px 0; padding: 10px 20px;float: left;width: 100%;display: none;}
+.success-wrapper-section{background: @successColor; margin: 10px 0; padding: 10px 20px;float: left;width: 100%;color: @primaryColor4;display: none;}
+
+/* Profile page Style start */
+.profile-tab-section{	
+	& .tab-content{background-color: @primaryColor4;
+		& .tab-pane{float: left;width: 100%;}
+		& .panel-spacing{padding-top:10px;}
+		
+	}
+	& .personal-details-view{float: left;width: 100%;background-color: @primaryColor3;padding: 30px 20px;color: @primaryColor4;
+				& .applicant-image{
+				& img{width:100%;max-width:180px;background-color:@primaryColor4;padding:10px;}
+				}
+				& .pic-upload-text{font-weight:normal; margin-top: 5px;}
+				& .label-head{color: #cccccc; width:35%; margin-bottom: 0; padding-bottom:5px;float:left; font-family: @baseFontFamily; padding-top: 4px}
+				& .label-data{color: @primaryColor4;width:65%;padding-bottom:5px;float:left; font-family: @baseFontGothicMedium;  padding-top: 4px}
+				& .button-slide{display:inline-block;vertical-align:middle;}
+	}
+		
+	& .profile-form-container{float: left;width: 100%;background-color: @primaryColor4;padding: 10px;
+	& .panel-default > .panel-heading{padding:10px;
+		& a{color:#fff;}
+	}
+	& .panel{border:none;}
+	}	
+	
+	& .style-edit-button{padding-top:12px;}
+	& .style-cancel-button{color:#ff0000;}
+	& .profile-input-spacing{margin-top:0px;}
+	& .stl-resend-otp{padding-top:10px;}
+	& .contact-details-form{float: left;width: 100%;
+		& .padding-contact-details{margin-bottom:15px;
+			& .padding-dropdown-contact{padding-left:0px;}
+		}
+		& .profile-otp-box{padding:20px;margin-bottom:20px;background-color:#ebf5ff;margin-right:15px;display:none;
+			& .otp-text{margin-bottom:10px;}
+		}
+	}
+}
+
+.saveCancelbtn{ margin-top: 5px; display: none;}
+.saveCancelbtn a{ margin-right: 10px; margin-top: 0!important}
+.style-edit-button{padding-top:12px;}
+.style-cancel-button{color:#ff0000;}
+
+.voucher-tab-section{float: left;width: 100%;margin-bottom: 30px;
+	& form{float: left;width: 100%;margin: 0;}
+	& .tab-content{float: left;width: 100%;background-color: @primaryColor4;padding: 0 0 12px 0;
+		& .tab-pane{float: left;width: 100%;}
+		& .panel-spacing{padding-top:10px;}
+	}
+	
+
+	& .style-edit-button{padding-top:10px;}
+	& .style-cancel-button{color:#ff0000;}
+	& .profile-input-spacing{margin-top:0px;}
+	
+	& .credit-vouchers-container{float:left;width:100%;padding:20px;
+		& .voucher-statement{font-size:@baseFontSize; font-family: @baseFontGothicMedium;}		
+		& .voucher-table{
+			& .glyphicon{font-size: @baseFontSize - 3;color: @primaryColor1;}
+		}
+		
+		& .voucher-pagination-section{border-top: 1px solid #ddd;margin-top: 10px;padding-top: 10px;
+			& ul{margin: 0;}
+			& label{margin: 12px 0 0;padding-left: 0;font-size: @baseFontSize - 1;font-weight: normal;}
+			& input[type="text"]{width: 60px;display: inline-block;float: left;height: @inputHeight;}
+			& .btn{display: inline-block;padding: 8px 12px;}
+		}
+	}	
+}
+
+/* Contract page */
+.contract-container{float:left;width:100%;padding:20px;background-color:@primaryColor4;
+	& .contract-statement{float:left;width:100%;font-size:@baseFontSize;padding-bottom:10px;border-bottom:1px solid #ddd;}
+	& h3{padding-left:15px;}
+	& table{border-top: 1px solid #ddd;
+		& > thead{border-bottom:1px solid #ddd;
+		& > tr > th{padding:15px;border-bottom:0px;}
+		& > tr > th:nth-of-type(odd){float:left;width:60%;text-align:left;}
+		& > tr > th:nth-of-type(even){float:right;width:40%;}
+	}
+		& > tbody > tr > td{padding:15px;border:none;}
+		& > tbody > tr > td:nth-of-type(odd){float:left;width:60%;text-align:left;}
+		& > tbody > tr > td:nth-of-type(even){float:right;width:40%;}	
+	}
+	& .table-striped > tbody > tr:nth-of-type(odd) {background-color: @primaryColor4;}
+	& .table-striped > tbody > tr:nth-of-type(even) {background-color: #f9f9f9;}
+	& .pagination-section{border-top: 1px solid #ddd;margin-top: 10px;padding-top: 10px;}
+}
+.download-file .fa{ font-size: 20px; margin-right: 5px;}
+.shopping-list-container{float:left;width:100%;background-color:#fff;padding : 20px;
+	& .shopping-list-tab-section{border-top:1px solid darkgrey;padding-top:20px;
+	& .shopping-add-list-button{float:right;margin-top:20px;margin-bottom:10px;height:45px;font-size: @baseFontSize;}
+	& .new-shopping-list{padding: 30px 20px;background-color: #ebf5ff;overflow: hidden;margin-bottom: 20px;}
+	}
+	
+	& .panel-heading{background-color:@secondaryColor2;padding:15px 10px;font-size:20px;color:@primaryColor4;
+		& a{color:@primaryColor4;}
+		& .smallText{font-size:16px;}
+		& .seperator{border-top:1px solid @primaryColor4;}
+	}
+	& .panel-body{
+		.shopping-list-header{border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding-top:10px;padding-bottom:10px;color:@primaryColor3;font-weight:bold;}
+		.shopping-list-description{border-bottom:1px solid #ddd;
+			& img{border:1px solid #ddd;margin-top:10px;}
+			& .row{margin-top:10px;margin-bottom:10px;}
+			& .shopping-list-product-name{color:@primaryColor3;font-weight:bold;}
+		}
+	}
+}
+.profile-co-app-form-container{float:left;width:100%;background-color:#fff;padding:20px;
+	& .co-app-agree-section{border-top:1px solid #ddd;padding-top:10px;
+		& label{
+			& .checkbox{padding-top:3px;}
+		}
+		& .placeholder-text{padding:15px;margin: 10px 0 0; background-color:#ebf5ff;display:none;}
+	}
+}
+.personal-details-form{float: left;width: 100%;}
+.my-account-breadcrumb > li + li:before{content:'>';}
+.my-account-profile-recognition{padding : 20px;
+	& p{ font-family: @baseFontGothicMedium;}
+	& h4{color:@primaryColor3;}
+	& .recognition-name{padding-top:20px;border-top:1px solid #ddd;}
+	& .checkbox{color:@primaryColor3;}
+	& .save-cancel-button{margin-top:20px;
+     	& .save-button{width:100%;}
+     	& .cancel-button{width:100%;}
+   }
+}
+/* Profile page style ends here. */
+
+/* Address Book style start */
+.my-account-form-container{float: left;width: 100%;background-color: @primaryColor4;padding: 20px;}
+.my-account-tips{font-size: @baseFontSize + 1;margin-bottom: 10px;}
+.address-tips, .tipsInfo{font-size: @baseFontSize + 3;margin-bottom: 10px;padding-bottom: 10px;border-bottom: 1px solid @tableBorderColor;}
+
+.search-input-field .btn-default{padding: 12px 15px;border-color: #929292;border-left: none;}
+.search-input-field .form-control, .search-input-field .form-control:focus {box-shadow:none;-webkit-box-shadow:none; border-color:#929292; border-right: none;}
+.new-address-form{display:none;padding: 30px 20px;background-color: #ebf5ff;overflow: hidden;margin-bottom: 20px;
+	& h3{margin: 0 0 20px;}
+}
+
+.edit-address-form{padding: 30px 20px;background-color: #ebf5ff;overflow: hidden;margin-bottom: 20px;
+	& h3{margin: 0 0 20px;}
+	& .form-group{overflow: hidden;}
+}
+
+.add-new-form-row{margin-bottom: 10px;overflow: hidden;
+	& .control-label{text-align: left;vertical-align: middle;font-family: @fontFamilyFormLabel;font-size: @baseFontSize;font-weight: normal;color: @secondaryColor3;}
+}
+.contact-input div{padding-left: 0;padding-right: 5px;}
+.contact-input div + div{padding: 0;}
+.form-submit-button-section{float: left;width: 100%;padding: 20px 0 0;border-top: 1px solid @tableBorderColor;margin-top: 20px;text-align: right;
+	& .btn{min-width: 130px;margin-left: 10px;}
+}
+.btn.add-new-address-btn{}
+.add-new-address-btn .glyphicon{font-size: @baseFontSize - 3;}
+.my-account-form-repeat{float: left;width: 100%;}
+.account-form-inner{padding: 0 15px;float: left;width: 100%;
+	& label.control-label{text-align: left; color: @secondaryColor3;font-weight: normal;font-family: @fontFamilyFormLabel;}
+	& .checkbox{margin-top: 0;margin-bottom: 0;}
+}
+.go-to-page-box .form-control{border-color:@tableBorderColor;}
+.address-list-sort .glyphicon, .sortingTable .glyphicon{font-size: @baseFontSize - 3;color: @primaryColor1;}
+
+.auto-renewal-tips{background-color: @otpBackground;padding: 20px;float: left;width: 100%;display: none;margin-top: 15px;
+	& p{padding: 0;}
+	& a{text-decoration: underline;
+		&:hover{text-decoration: none;}
+	}
+}
+
+/* swipe on/off style start */
+.button-slide {margin:0 auto;
+	& > .switch {display: block;margin: 0;}
+}
+.switch {position: relative;display: inline-block;vertical-align: top; width: 80px; height: 34px;padding-top: 0!important; border-radius: 18px; cursor: pointer;}
+.switch-input {position: absolute;top: 0;left: 0;opacity: 0;}
+
+.switch-label:before, .switch-label:after {position: absolute;top: 50%;margin-top: -.5em; line-height: 1; -webkit-transition: inherit;-moz-transition: inherit;-o-transition: inherit;transition: inherit;}
+.switch-label {position: relative;display: block;height: inherit;font-size: @baseFontSize - 1;border-radius: inherit;
+  	background: #999999;
+	-webkit-transition: 0.15s ease-out;
+	-moz-transition: 0.15s ease-out;
+	-o-transition: 0.15s ease-out;
+	transition: 0.15s ease-out;
+	-webkit-transition-property: opacity background;
+	-moz-transition-property: opacity background;
+	-o-transition-property: opacity background;
+	transition-property: opacity background;
+
+	&:before {content: attr(data-off); right: 15px;color: @primaryColor4;}
+	&:after {content: attr(data-on); left: 15px; opacity: 0;color: @primaryColor4;}	
+}
+
+.yesNoButton .switch-label:before{right:16px;font-size: @baseFontSize + 1;}
+.yesNoButton .switch-label:after{left:16px;font-size: @baseFontSize + 1;}
+.switch-input:checked ~ .switch-label {background: #27a448;}
+.switch-input:checked ~ .switch-label:before {opacity: 0;}
+.switch-input:checked ~ .switch-label:after {opacity: 1;}
+.switch-handle {position: absolute;top: 2px;left: 3px;width:30px;height:30px;border-radius: 100%;
+	background: @primaryColor4;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-linear-gradient(top, @primaryColor4 40%, #f7f6f4);
+	background-image: -moz-linear-gradient(top, @primaryColor4 40%, #f7f6f4);
+	background-image: -o-linear-gradient(top, @primaryColor4 40%, #f7f6f4);
+	background-image: linear-gradient(to bottom, @primaryColor4 40%, #f7f6f4);
+	-webkit-transition: left 0.15s ease-out;
+	-moz-transition: left 0.15s ease-out;
+	-o-transition: left 0.15s ease-out;
+	transition: left 0.15s ease-out;
+}
+.switch-input:checked ~ .switch-label ~ .switch-handle:before {font-size: @baseFontSize - 4;content: "\e013";position: absolute;top: 50%; left: 50%; margin: -5px 0 0 -5px; width: 10px;height: 10px;color: #27a348;}
+.switch-handle:before {font-size: @baseFontSize - 4;content: "\e014";position: absolute;top: 50%; left: 50%; margin: -5px 0 0 -5px; width: 10px;height: 10px;}
+.switch-input:checked ~ .switch-handle {left: 47px;}
+.switch-input:checked ~ .buttonSlideInfo .infoContBox2:first-child p {color: #000000; }
+.switch-action-off, .switch-action-on{float: left;width: 100%;}
+/* switch on/off style end */
+
+/* Address Book style end */
+
+.CoApp-personal-details{padding: 0 20px}
+/*** Start for mobile ****/
+@media (min-width: 320px) and (max-width:767px)  {
+	/*********Register Page style************/
+	.containter-compact{width: 100%;padding: 10px;}
+	.center-info-section{min-height: 20px; border-left: 0; border-right: 0;border-bottom: 1px solid @tableBorderColor;padding: 0 0 10px 0;margin-bottom: 0;
+		&.border-left{border-right: 0;border-left: 0}
+	}
+	.arrow-box{padding-right: 0;
+		&:before{border:0;}
+		&:after{border:0;}
+	}
+	.agreelink{margin: 10px 0}
+	.list-info{ padding-left: 2%}
+	.total-summary{ margin: 0; padding:0;}
+	.form-submit-button-section {
+		.btn {
+			margin-left: 0;
+			margin-right: 5px;
+			min-width: 48%;
+		}
+		.btn+.btn {
+			margin-right: 0;
+		}
+	}	
+	.search-input-field .btn-default{padding-top: 7px;padding-bottom: 7px;}
+	.agreeGroup .radio-inline, .agreeGroup .radio-inline + .radio-inline{ padding-left: 10px; margin-left: 0;}
+	.account-form-inner{padding: 10px;}
+	.my-account-form-container{padding: 10px;}
+	.shipping-address-list{
+		& .page-sub-title{margin-top: 0}
+		& .btn{width: 100%;}
+		& .search-input-field{margin-bottom: 10px}
+		& .add-new-address-btn{margin-bottom: 10px}
+	}
+	.table-responsive{border: none;}
+	.CoApp-personal-details{padding: 0 10px}
+	.my-account-profile-recognition{padding: 0 8px}
+	.my-account-form-container {
+		padding: 10px;
+		.table>tbody>tr>td {
+			border-left: 1px solid @tableBorderColor;
+			padding: 8px;
+		}
+		.table>thead>tr>th {
+			border-left: 1px solid @tableBorderColor;
+			padding: 8px;
+		}
+		.table>tbody>tr {
+			td {
+				&:first-child {
+					border-left: none;
+				}
+			}
+		}
+		.table>thead>tr {
+			th {
+				&:first-child {
+					border-left: none;
+				}
+			}
+		}
+		.page-title {
+			font-size: @baseFontSize + 5;
+		}
+	}
+	.account-settings-inner-content{
+		& .password-field-hint{width: 100%;margin-left: 0;padding: 0 10px;margin-bottom: 10px;}
+	}
+	.address-tips{font-size: @baseFontSize;}
+	
+	.page-title{font-size: @baseFontSize + 11;}
+	.payment-accordion-section .panel-default > .panel-heading + .panel-collapse > .panel-body{padding: 10px;}
+
+	/* profile and voucher page style start here  */
+   .page-title-mobile{font-size: @baseFontSize + 9;margin-bottom:10px;} 
+   .profile-tab-section{
+   		& .profile-input-spacing{margin-top:15px;}
+		& .personal-details-view{padding-left:10px;padding-right:10px; padding-top: 15px;
+			& .applicant-image{float: left;}
+			& .pic-upload-text{float: left; margin-left: 10px; left: 87px; margin-left: 10px;position: absolute; bottom:0; width: 100px;}
+		}
+		.profile-form-container{padding: 10px 0 0;}
+		& .my-account-profile-recognition{
+			& .save-cancel-button{margin-top:20px;
+				.btn{width:100%;}
+			}
+		}
+		& .padding-contact-details{
+			& .panel-default > .panel-heading + .panel-collapse > .panel-body{padding: 0}
+		}
+		& .contact-details-form{
+			& .profile-otp-box{margin-left:5px;margin-right:10px;}
+		}
+		& .personal-details-view{
+			& .label-head{width: 50%; padding-right: 10px}
+			& .label-data{width: 50%;}
+		} 
+		.panel-default .panel-collapse .panel-body .panel-heading + .panel-collapse > .panel-body{padding-bottom: 0}
+   }
+   .details{margin-top: 15px;}
+   .profile-co-app-form-container{padding: 0;
+		& .co-app-agree-section{
+			& .placeholder-text{margin-right:30px;}
+		}
+		& .form-heading{margin-top: 0;margin-bottom: 10px}
+	}
+   
+   .voucher-tab-section{
+  		& .panel-default{border: none;border-radius: 0;margin: 0;box-shadow: none;
+            & > .panel-heading{background-color: @primaryColor4;border: none;box-shadow: none;padding: 0;}
+            & > .panel-heading + .panel-collapse > .panel-body{border: none;padding: 0;}
+            & .panel-title > a{padding: 10px 15px;display: block;border-top: 5px solid @tableBorderColor; font-size: @baseFontSize + 3;font-family: @fontFamilyFormLabel;color: @secondaryColor3;
+				&.js-tabcollapse-panel-heading{border-top-color: @primaryColor1;}
+				&.js-tabcollapse-panel-heading.collapsed{border-top-color: @secondaryColor1;}
+				&:hover{text-decoration: none;}
+				&:focus{text-decoration: none;}
+			}
+		}
+   }
+   
+   .contract-container{
+		& table > thead > tr > th:nth-of-type(even){border-left:1px solid #ddd;}
+		& table > tbody > tr > td:nth-of-type(even){border-left:1px solid #ddd;}
+		}
+   
+
+  /* profile and voucher page style ends here*/
+
+
+  	.card-number-or-type input{width: 45px!important;margin-left: 0;}
+	.card-type{margin-right: 5px;}
+	.card-type img{width: 50px;}
+	.bank-account-inner-container{padding: 10px 0;}
+	.payment-dtl-tabs-container{padding: 10px 10px 0;}
+	.payment-dtl-tab-section{
+		& .panel-default{border: none;border-radius: 0;margin: 0;box-shadow: none;
+			& > .panel-heading{background-color: @primaryColor4;border: none;box-shadow: none;padding: 0;}
+			& > .panel-heading + .panel-collapse > .panel-body{border: none;padding: 0;}
+			& .panel-title > a{padding: 10px 15px;display: block;border-top: 5px solid @tableBorderColor; font-size: @baseFontSize + 3;font-family: @fontFamilyFormLabel;color: @secondaryColor3;
+				&.js-tabcollapse-panel-heading{border-top-color: @primaryColor1;}
+				&.js-tabcollapse-panel-heading.collapsed{border-top-color: @secondaryColor1;}
+				&:hover{text-decoration: none;}
+				&:focus{text-decoration: none;}
+			}
+		}
+	}
+	.new-address-form{padding: 12px 10px;
+		& .form-submit-button-section .btn{min-width: 100%;margin-right: 0;}
+	}
+	.edit-address-form{padding: 12px 10px;
+		& .form-submit-button-section .btn{min-width: 100%;margin-right: 0;}
+	}
+	.card-detail-list{margin-bottom: 15px;   padding: 10px;	}
+	.card-number-or-type{width: 100%; margin-bottom: 10px;}
+	.card-delete{line-height: normal;}
+	.center-block-element{width: 100%;}
+	.otp-wrapper-section{padding: 8px;}	  
+}
+
+@media (min-width: 320px) and (max-width:991px)  {
+	.register-form{margin: 10px 0 0;
+		h2.heading{ margin:5px 5px 10px}
+	}
+	.foot-section{padding:0;}
+	.agree-section{ padding: 5px 5px 10px 15px}
+	
+}
+
+@media (min-width: 768px) and (max-width:991px){
+	.containter-compact{width: 100%;padding: 10px;}
+	.arrow-box a{font-size: @baseFontSize + 1;  padding: 15px 5px 15px 10px;}
+	.tri-count { border: 2px solid @primaryColor4; border-radius: 18px; margin-right: 5px; padding: 2px 9px;}
+	.triangular-nav .nav-justified > li{width: 1%; }
+	.arrow-box{padding-right: 0;
+		&:before{border:0;}
+		&:after{border:0;}
+	}
+	.p-quantity .input-group{margin-bottom: 10px;}  
+	.nav-justified > li{width: auto;}
+	/*.table-responsive{border: none;width: 100%;overflow-y: hidden;}*/
+	.card-number-or-type input{width: 50px!important;}
+	.card-detail-list li{padding: 15px;}
+	
+	.profile-tab-section{
+   		& .profile-input-spacing{margin-top:15px;}
+		&  input[type="text"], input[type="password"] {
+			height: 45px;}
+		& .padding-contact-details{padding-left:5px;}
+		& .contact-details-form{
+			& .profile-otp-box{margin-left:5px;margin-right:50px;}
+		}
+	}
+	.account-settings-inner-content{
+		& .password-field-hint{width: 100%;margin-left: 0;padding: 0 10px;margin-bottom: 10px;}
+	}
+	.card-detail-list{margin-bottom: 15px;   padding: 15px 15px 5px;	}
+	.card-number-or-type{width: 100%; margin-bottom: 10px;}
+	.card-delete{line-height: normal;}
+	.profile-tab-section .profile-form-container .panel{margin-top: 0}
+	.CoApp-personal-details{padding-top: 20px}
+	.fixradioW{width: 40%}
+}
+
+@media (min-width: 992px) {
+	.containter-compact{width: 880px; padding: 10px; margin:30px auto 10px;}
+	.register-link{min-width: 150px}  
+	.profile-tab-section{   		
+		&  input[type="text"], input[type="password"] {
+			height: 45px;}
+		& .stl-resend-otp{padding-left:10px;}	
+	}
+}
+
+@media (min-width:992px) and (max-width:1024px){
+	.profile-tab-section{
+		& .stl-resend-otp{padding-top:0px;}
+		& .contact-details-form{
+			& .profile-otp-box{margin-left:5px;margin-right:5px;}
+		}
+	}
+	.profile-co-app-form-container{
+		& .co-app-agree-section{
+			& .placeholder-text{margin-right:5px;}
+		}
+	}
+	.profile-input-spacing{margin-top:15px;}	
+}
+
+@media (min-width: 1200px) {
+	.containter-compact{width: 880px; margin:30px auto 10px;}
+}
