@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>::: Amway :::</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/main-style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header>
+      <div class="container">
+        <img src="images/header.jpg" class="img-responsive">
+      </div>
+    </header><!-- Header section end -->
+
+    <!-- Page container section start -->
+    <section class="page-container clearfix">
+
+      <div class="container">
+        <!--breadcrumb start-->
+        <ol class="breadcrumb hidden-xs hidden-sm">
+          <li><a href="#">Home</a></li>
+          <li class="active">My Account</li>
+        </ol>
+        <!--breadcrumb end-->
+        
+        <!-- My Account section start -->
+        <div class="row hidden-xs hidden-sm">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <h1 class="page-title">My Account</h1>
+          </div>
+        </div>
+
+        
+        <div class="row">            
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <!-- My Account Left side menu section start -->
+            <div class="col-xs-12 col-sm-12 col-md-3">
+              <h1 class="page-title visible-xs visible-sm">Preferences</h1>
+              <div class="vertical-left-menus hidden-xs hidden-sm">
+                <div class="panel-group" id="accordion-plus">
+                  <ul class="nav nav-stacked">
+                    <li>
+                      <a href="profile.html" title="Profile">Profile</a>
+                    </li>
+                    <li class="dropdown">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <div class="panel-title">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-plus" href="#collapseThree">
+                              Order History 
+                              <span class="indicator glyphicon glyphicon-plus pull-right"></span>
+                            </a>
+                          </div>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <ul>
+                              <li><a href="#">Order History2</a></li>
+                              <li><a href="#">Order History4</a></li>
+                              <li><a href="#">Order History3</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="shopping-list.html" title="Shopping List">Shopping List</a>
+                    </li>
+                    <li>
+                      <a href="voucher.html" title="Voucher">Voucher</a>
+                    </li>
+                    <li>
+                      <a href="address-book.html" title="Address Book">Address Book</a>
+                    </li>
+                    <li>
+                      <a href="contract.html" title="Contract">Contract</a>
+                    </li>
+                    <li>
+                      <a href="payment-details.html" title="Payment Details">Payment Details</a>
+                    </li>
+                    <li class="active">
+                      <a href="javascript:void(0);" title="Preferences">Preferences</a>
+                    </li>
+                    <li>
+                      <a href="account-settings.html" title="Account Settings">Account Settings</a>
+                    </li>
+                    <li>
+                      <a href="resignation.html" title="Resignation">Resignation</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- My Account Left side menu section end -->
+
+            <!-- My Account Right side Tabs section start -->
+            <div class="col-xs-12 col-sm-12 col-md-9">
+              <!-- My Account Form Container start -->
+              <div class="inner-container clearfix">
+                <div class="my-account-tips">
+                 Customise your preferences to improve your Amway experience.
+                </div>
+                <form>
+                  <div class="my-account-form-repeat">
+                    <h2 class="form-heading">Default Display Page</h2>
+                    <div class="row">
+                      <div class="account-form-inner">
+                        <div class="row">
+                        <label class="col-xs-12 col-sm-12 col-md-3 control-label">Set display page to</label>
+                        <div class="col-xs-12 col-sm-12 col-md-5">
+                          <select class="form-control">
+                            <option>Homepage (Shopping)</option>
+                          </select>
+                        </div>
+                      </div>              
+                    </div><!--row end-->
+                  </div>
+                  </div>
+                  <div class="my-account-form-repeat">
+                    <h2 class="form-heading">Membership Renewal</h2>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="account-form-inner">
+                          <div class="row">
+                          <label class="col-xs-6 col-sm-5 col-md-3 control-label">Auto-Renewal</label>
+                          <div class="col-xs-6 col-sm-7 col-md-5">
+                            <!-- <input id="switch-animate" type="checkbox" checked> -->
+                            <div class="button-slide yesNoButton">
+                              <label class="switch">
+                                <input type="checkbox" class="switch-input">
+                                <span class="switch-label" data-on="On" data-off="Off"></span> <span class="switch-handle glyphicon"></span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="auto-renewal-tips">
+                          <p>To renew your subscriptions automatically, you must have a valid payment method to cover the amount of your renewal. Learn how to change your <a href="#">Payment Method</a> or <a href="#">Add Payment Method</a> to your account.</p>
+                        </div> 
+                      </div>             
+                    </div><!--row end-->
+                  </div>
+                  <div class="my-account-form-repeat">
+                    <h2 class="form-heading">AMAGRAM</h2>
+                    <div class="row">
+                      <div class="account-form-inner">
+                        <div class="my-account-tips">You've already subscribed to Amway's AMAGRAM hard-copy magazine. Select AMAGRAM language here.</div>                    
+                        <div class="row">
+                          <div class="form-group">
+                            <label class="col-xs-12 col-sm-12 col-md-3 control-label">Preferred Language</label>
+                            <div class="col-xs-12 col-sm-12 col-md-5">
+                              <select class="form-control">
+                                <option>English</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="form-group">
+                            <label class="col-xs-12 col-sm-12 col-md-3 control-label">Other Language</label>
+                            <div class="col-xs-12 col-sm-12 col-md-5">
+                              <select class="form-control">
+                                <option>Please select another language here</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>             
+                    </div><!--row end-->
+                  </div>
+                  <div class="my-account-form-repeat">
+                    <h2 class="form-heading">E-mail Subscriptions</h2>
+                    <div class="row">
+                      <div class="account-form-inner">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="checkbox">
+                            <label class="checkbox-inline">
+                              <input type="checkbox" name="mobile" class="mobileCheck"> Check here if you do not wish to receive Amway Newsletters.
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      </div>              
+                    </div><!--row end-->
+                  </div>
+                  <div class="form-submit-button-section">
+                    <button title="Save" type="button" class="btn btn-primary">Save</button>
+                    <button title="Cancel" type="button" class="btn btn-default">Cancel</button>
+                  </div>
+                </form>
+              </div>
+              <!-- My Account Form Container end -->
+            </div><!-- My Account Right side Tabs section end -->
+          </div>  
+        </div><!--row end--> 
+        <!-- My Account section end -->
+      </div> <!-- /container -->          
+    </section><!--page-container end-->
+
+    <footer>
+        <div class="container">
+          <img src="images/footer.jpg" class="img-responsive">
+        </div>
+    </footer>
+        
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/bootstrap.min.js"></script> 
+    <!-- // <script src="js/bootstrap-switch.min.js"></script> -->
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        // $("#switch-animate").bootstrapSwitch();
+      })
+    </script>
+    <!-- Custom Jquery --> 
+    <script src="js/custom-functions.js"></script>
+  </body>
+</html>
